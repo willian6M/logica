@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <label for="nick" >Qual seu nick:</label>
+        <input type="text" id="nick"  name="nick">
+        <label for="options">escolha seu nivel:</label>
+        <input list="opcoes" id="options" name="options" />
+        <datalist id="opcoes">
+        <option value="FERRO">1.000XP</option>
+        <option value="BRONZE">1.001 a 2.000XP</option>
+        <option value="PRATA">2.001 a 5.000XP</option>
+        <option value="OURO">6.001 a 7.000XP</option>
+        <option value="PLATINA">7.001 a 8.000XP</option>
+        <option value="ASCENDENTE">8.001 a 9.000XP</option>
+        <option value="IMORTAL">9.001 a 10.000XP</option>
+        <option value="RADIANTE">10.001XP</option>
+        </datalist>
+        <button id="submit">Enviar</button>
+    </div>
+
+<script src="xps.js"></script>
+
+</body>
+
+</html>
